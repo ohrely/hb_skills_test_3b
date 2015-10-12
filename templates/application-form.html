@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Skills-Web</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <h1>Application Form</h1>
+    <p>Please fill out this form yo.</p>
+
+    <form action="/application" method="post">
+        First Name:
+        <input type="text" name="first"><br>
+        Last Name:
+        <input type="text" name="last"><br>
+        Salary Requirements:
+        <input type="text" name="salary"><br>
+
+        Applying for Position:<br>
+        <input type="radio" name="position" value="Software Engineer">Software Engineer<br>
+        <input type="radio" name="position" value="QA Engineer">QA Engineer<br>
+        <input type="radio" name="position" value="Product Manager">Product Manager<br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
